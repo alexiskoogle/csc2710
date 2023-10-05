@@ -19,7 +19,7 @@ using namespace std;
 
 struct heap
 {
-	int S[501];
+	int S[1002];
 	int heapsize;
 };
 
@@ -45,7 +45,7 @@ int counter_bs = 0;
 int counter_hs = 0;
 
 int main(){
-	srand(time(nullptr));
+	srand(time(NULL));
 	int x,y;
 	cout << "Enter a number between 1-1000: ";
 	cin >> x;
