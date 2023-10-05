@@ -366,12 +366,14 @@ void siftdown(heap& H, int i)
 	spotfound = false;
 	while(2*parent<=H.heapsize && ! spotfound)
 		{
+			counter_hs++;
 			if(2*parent<=H.heapsize && H.S[2*parent] < H.S[2*parent + 1])
 				{
 					largerchild = 2* parent+1;
 				}
 			else
 				largerchild = 2*parent;
+			counter_hs++;
 			if(siftkey < H.S[largerchild])
 				{
 					H.S[parent] = H.S[largerchild];
