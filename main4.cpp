@@ -212,12 +212,14 @@ void merge(int numbers[], int first, int middle, int last) {
 		numbers[k]=leftArr[i];
 		i++;
 		k++;
+		counter_ms++;
 	}
 	//Copy the remaining elements of right the right away in case the arrays are uneven
 	while (j < l2) {
 		numbers[k]=rightArr[j];
 		j++;
 		k++;
+		counter_ms++;
 	}
 }
 
