@@ -1,7 +1,7 @@
-//John Macbean
+//John, Alexis, Abby, Shannon
 //csc2710
-//9-10-23
-//home/students/jmacbean/csc2710/programs/pro1.cpp
+//10-6-23
+//home/students/jmacbean/csc2710/SortingTeamProject/main.cpp
 //This lab will provide practice loading, passing, processing, and printing arrays.
 //Assistance
 //Compile: g++ main.cpp 
